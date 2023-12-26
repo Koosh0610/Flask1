@@ -13,7 +13,6 @@ gradio
 protobuf
 scipy
 sentencepiece
-torch
 transformers
 requests
 pandas
