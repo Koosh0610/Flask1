@@ -6,7 +6,7 @@ COPY ./requirements.txt /app/requirements.txt
 
 # switch working directory
 WORKDIR /app
-RUN pip install numpy==1.25 wheel==0.42.0
+RUN pip install numpy==1.21.4 wheel==0.38.1
 # install the dependencies and packages in the requirements file
 RUN pip install -r requirements.txt
 
