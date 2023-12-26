@@ -1,5 +1,5 @@
 # start by pulling the python image
-FROM python:3.10.8-slim
+FROM python:3.9-bookworm
 # copy the requirements file into the image
 COPY ./requirements.txt /app/requirements.txt
 
